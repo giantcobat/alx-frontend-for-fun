@@ -1,3 +1,8 @@
-/* Sass file */
-@import '103-sort_list.scss';
+$list_to_sort: john anna zoe kim felicia carrie;
+
+// Sort the list
+$list_to_sort: sort($list_to_sort);
+
+// Print the sorted list in the debug output
 @debug $list_to_sort;
+
